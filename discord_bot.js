@@ -127,6 +127,15 @@ var commands = {
                 msg.channel.send( "note that !ping takes no arguments!");
             }
         }
+    },    
+    "stupidquote": {
+        description: "responds with stupid quote",
+        process: function(bot, msg, suffix) {
+            msg.channel.send( "http://img1.ak.crunchyroll.com/i/spire1/acf8104ad538cfc90244295f2515ec9d1428451871_full.jpg");
+            if(suffix){
+                msg.channel.send( "note that !ping takes no arguments!");
+            }
+        }
     },
     "idle": {
 				usage: "[status]",
